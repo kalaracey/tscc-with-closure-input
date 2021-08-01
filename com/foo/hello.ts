@@ -1,3 +1,5 @@
-///<reference path="./bonjour.soy.d.ts"/>
-import { bonjour } from 'goog:com.foo';
-document.write(bonjour());
+declare namespace com.foo {
+  function bonjour(opt_data?: { [key: string]: any }): any;
+}
+
+document.write(com.foo.bonjour());
