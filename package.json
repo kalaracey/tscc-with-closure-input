@@ -1,0 +1,10 @@
+{
+  "name": "tscc-with-closure-input",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tscc"
+  },
+  "dependencies": {
+    "@tscc/tscc": "^0.7.0"
+  }
+}

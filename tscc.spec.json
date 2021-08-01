@@ -1,0 +1,13 @@
+{
+  "modules": {
+    "page": {
+      "entry": "com/foo/hello.ts",
+      "extraSources": ["com/foo/bonjour.soy.js"]
+    }
+  },
+  "prefix": "dist/",
+  "debug": {
+    "persistArtifacts": true
+  }
+}
+  
