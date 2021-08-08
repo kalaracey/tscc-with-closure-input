@@ -1,0 +1,6 @@
+[submodule "third_party/closure-templates"]
+	path = third_party/closure-templates
+	url = git@github.com:kyle-laracey/closure-templates.git
+[submodule "third_party/closure-library"]
+	path = third_party/closure-library
+	url = git@github.com:kyle-laracey/closure-library.git

@@ -1,13 +1,20 @@
 {
   "modules": {
     "page": {
-      "entry": "com/foo/hello.ts",
-      "extraSources": ["com/foo/bonjour.soy.js"]
+      "entry": "com/foo/hello.ts"
     }
   },
   "prefix": "dist/",
   "debug": {
     "persistArtifacts": true
-  }
+  },
+  "compilerFlags": {
+    "language_in": "ECMASCRIPT_2015"
+  },
+  "jsFiles": [
+    "dist/com/foo/bonjour.soy.js",
+    "third_party/closure-library/closure/goog/**/*.js",
+    "third_party/closure-templates/javascript/*.js"
+  ]
 }
   

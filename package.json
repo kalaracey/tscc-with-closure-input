@@ -5,6 +5,6 @@
     "build": "tscc"
   },
   "dependencies": {
-    "@tscc/tscc": "^0.7.0"
+    "@tscc/tscc": "^0.7.3"
   }
 }
